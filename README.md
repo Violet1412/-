@@ -57,7 +57,7 @@ Michigan State University 2021
 
 # 其他类型工具
 ## 1 EvalDNN
-[EvalDNN](https://github.com/yqtianust/EvalDNN)
+[EvalDNN](https://github.com/yqtianust/EvalDNN)  
 Microsoft Asia Cloud Research Software Fellow Award 2019
 支持TensorFlow、Keras、GluonCV 、PyTorch。
 包括准确率、鲁棒性(foolbox)、覆盖率(NeuronCoverage)三个评价指标。
@@ -72,11 +72,18 @@ Rai-toolbox设计了更灵活的API，并可以与其他流行的机器学习框
 
 ## 3 robustbench
 [robustbench](https://github.com/RobustBench/robustbench)  
-
-RobustBench通过提供标准化的评估方法和数据集，帮助消除不同攻击和防御研究工作之间的比较偏差。  
-
-## 4 MAIR
-[MAIR](https://github.com/Harry24k/MAIR)
+University of T¨ubingen, Germany 2020  
+该工具的目标是系统地跟踪对抗鲁棒性的真实进展。    
+RobustBench通过提供标准化的评估方法和数据集（Imagenet），帮助消除不同攻击和防御研究工作之间的比较偏差。  
+除了标准化基准测试外，RobustBench 还提供了坚固的防御模型，用于测试对抗攻击方法。  
 
 ## 5 ROBY
-[ROBY](https://github.com/fmselab/roby)
+[ROBY](https://github.com/fmselab/roby)  
+National Institute of Informatics Tokyo, Japan 2020  
+用于分析神经网络分类器的鲁棒性。  
+定义鲁棒性为分类器在输入数据经过特定类型变化后，其准确率保持在一个预设阈值（Θ）以上的能力。  
+提出了一个近似方法，该方法涉及在可能的变化区间内采样若干等分布的点，并计算在这些点上模型准确率高于阈值的占比。  
+任务类型包括医学诊断、手写数字识别、交通标志识别、MNIST音频识别。  
+用户也可以指定测试数据集的位置、如何获取测试数据的正确分类以及要对输入数据应用哪些变化，从而评估不同模型的鲁棒性。  
+
+
