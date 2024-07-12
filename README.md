@@ -48,7 +48,13 @@ Michigan State University 2021
 用户可以轻松定制攻击过程，如调整攻击方式的参数，或者自定义攻击算法来适应特定的需求和场景。  
 与 PyTorch 的深度集成，这个库可以无缝集成到现有的 PyTorch 项目中，保持了与 PyTorch 生态系统的高度兼容性。    
 
-## 7 BlackboxBench
+## 7 ADVbox
+[ADVbox](https://github.com/advboxes/AdvBox)  
+百度安全实验室（Baidu Security） 2019  
+支持多种机器学习框架，如TensorFlow、PyTorch、Keras等  
+可添加自定义攻击方法和防御策略，适应不同的研究需求。  
+
+## 8 BlackboxBench
 [BlackboxBench]https://github.com/SCLBD/BlackboxBench  
 香港中文大学（深圳）大数据安全计算实验室（SCLBD） 2023  
 一个黑盒对抗攻击基准测试，涵盖了多种黑盒对抗攻击类型，包括基于查询的攻击和基于转移的攻击。  
